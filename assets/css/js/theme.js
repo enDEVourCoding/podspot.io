@@ -1,1 +1,0 @@
-(function(){const clock=$('[data-time-theme]');if(clock){const h=new Date().getHours();document.documentElement.style.setProperty('--hot',h>18?'#ff7a3e':h<10?'#8be9ff':'#ff3ea5');clock.textContent=h>18?'Night Frequency':h<10?'Morning Frequency':'Daylight Frequency'}})();
